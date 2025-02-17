@@ -17,8 +17,8 @@ import { Form, useActionData, useNavigation } from '@remix-run/react';
 import { json } from '@remix-run/cloudflare';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 import styles from './contact.module.css';
-import Phone from 'lucide-react/dist/esm/icons/phone.js';
-import Mail from 'lucide-react/dist/esm/icons/mail.js';
+// import Phone from 'lucide-react/dist/esm/icons/phone.js';
+// import Mail from 'lucide-react/dist/esm/icons/mail.js';
 export const meta = () => {
   return baseMeta({
     title: 'Contact',
@@ -148,7 +148,6 @@ export const Contact = () => {
                 title="7075583529" // tooltip on hover
                 type="phone"
               >
-                <Phone size={20} style={{ marginRight: '8px' }} />
                 7075583529
               </Button>
 
@@ -169,7 +168,6 @@ export const Contact = () => {
                 href="mailto:harshavardhanreddy3697@gmail.com" // mailto link
                 title="harshavardhanreddy3697@gmail.com" // tooltip on hover
               >
-                <Mail size={20} style={{ marginRight: '4px', flexShrink: 0 }} />
                 <span style={{ flexShrink: 1, minWidth: 0 }}>
                   harshavardhanreddy3697@gmail.com
                 </span>
