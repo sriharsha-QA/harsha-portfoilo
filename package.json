@@ -25,7 +25,6 @@
     "@vercel/remix": "^2.15.3",
     "framer-motion": "11.0.5",
     "isbot": "^4.1.0",
-    "lucide-react": "^0.475.0",
     "miniflare": "^3.20231030.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

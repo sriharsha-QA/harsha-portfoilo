@@ -17,8 +17,7 @@ import { Form, useActionData, useNavigation } from '@remix-run/react';
 import { json } from '@remix-run/cloudflare';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 import styles from './contact.module.css';
-// import Phone from 'lucide-react/dist/esm/icons/phone.js';
-// import Mail from 'lucide-react/dist/esm/icons/mail.js';
+
 export const meta = () => {
   return baseMeta({
     title: 'Contact',
