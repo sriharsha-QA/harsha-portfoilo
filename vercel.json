@@ -18,5 +18,9 @@
       "src": "/(.*)",
       "dest": "/build/server/index.js"
     }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "AWS_REGION": "us-east-1"
+  }
 }
